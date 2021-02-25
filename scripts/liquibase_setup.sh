@@ -15,4 +15,5 @@ cat <<CONF > /liquibase.properties
   password: $DB_PASSWORD
   referenceUsername: $DB_USERNAME
   referencePassword: $DB_PASSWORD
+  changeLogFile: dbchangelog.xml
 CONF
